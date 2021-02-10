@@ -1,0 +1,563 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: white;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 80%;
+    margin:0px auto;
+}
+
+/* header css start */
+.header_area {
+    width: 100%;
+    height: 800px;
+    background: url("images/header_img.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.header_logo_menu_area {
+    background-color: rgb(21, 23, 62);
+    width: 100%;
+    height: 78px;
+    padding: 10px;
+    position: fixed;
+    border-bottom:1px solid rgba(255, 255, 255, .1);
+
+}
+.logo_area {
+    width: 30%;
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+}
+.logo_area span {
+    color: orange;
+}
+.menu_area {
+    width: 70%;
+    overflow: hidden;
+}
+.menu_area ul {
+    float: right;    
+    margin-top: 16px;
+}
+.menu_area ul li {
+    float: left;
+    margin-left: 25px;
+}
+.menu_area ul li a {
+    padding: 5px 0px;
+    font-size: 17px;
+    display: inline-block;
+}
+.menu_area ul li .active, .menu_area ul li a:hover{
+     border-bottom: 2px solid orange;
+ }
+ .header_content{
+     padding: 290px 0px;
+ }
+ .header_content h4{
+     font-size: 30px;
+     font-weight: 400;
+ }
+ .header_content h2{
+    font-size: 80px;
+    margin: 5px 0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.header_content h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.header_content span{
+    color: orange;
+}
+.header_content a{
+    background-color: orange;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: .6s;
+    color:rgb(21, 23, 62);
+}
+.header_content a:hover{
+    box-shadow: 0 0 6px white;
+    color:rgba(21, 23, 62, .1s);
+}
+/* css area end */
+
+/* about_section start */
+.shape_01{
+    width: 20%;
+    height: 8px;
+    background-color: orange;
+    margin: auto;
+}
+.about_section{
+    width: 100%;
+    height: 500px;
+    margin: 60px 0px 225px 0px;
+}
+.about_section h2{
+    color: rgb(21, 23, 62, .7);
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    transition: .6s;
+    text-align: center;
+}
+.about_section h2:hover{
+    color: rgb(21, 23, 62, .9);
+}
+.about_content_left{
+    background: url("images/about_image.png") no-repeat center;
+    background-size: 100% auto;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+.about_content_right{
+    width: 60%;
+    overflow: hidden;
+    padding: 92px 0px 0px 41px;
+}
+.about_content_right h3{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;    
+    text-align: left;
+    margin-bottom: 16px;
+}
+.about_content_right p{
+    font-size: 18px;
+    color:rgba(21, 23, 62, .7);  
+    text-align: justify;
+}
+.about_content_right a{
+    background-color:rgba(21, 23, 62, 1);
+    font-size: 18px;
+    padding: 8px 36px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 25px 0px;
+    transition: .6s;
+}
+.about_content_right a:hover{
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(21, 23, 62, 1);
+    color:rgba(21, 23, 62, .5s);
+}
+/* about section css end */
+
+/* skill section css start */
+.skill_section{
+    background-color: rgba(21, 23, 62, 1);
+    width: 100%;
+    overflow: hidden;
+    padding: 70px 0px 0px 0px;
+}
+.skill_section .skill{
+    color: rgba(253, 253, 255, 0.7);
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 60px;
+    transition: .6s;
+    text-align: center;
+}
+.skill_section h2:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+.progress_bar{
+    padding:50px 50px 0px 0px;
+    color: white;
+    width: 40%;
+    float: left;    
+}
+.progress_bar li{
+    margin:20px 0px;
+}
+.progress_bar h3{
+    font-weight: 400;
+}
+.bar{
+    background-color: #353b48;
+    display: block;
+    height: 8px;
+    border: 1px solid rgba(21, 23, 62, .3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px orange;
+}
+.bar span {
+    height: 8px;
+    background: orange; 
+    border-radius: 10px;   
+    float: left;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.css{
+    width: 80%;
+    animation: css 2s;
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.java{
+    width: 70%;
+    animation: java 2s;
+}
+
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.jqu{
+    width: 80%;
+    animation: jqu 2s;
+}
+
+@keyframes jqu{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.boot{
+    width: 90%;
+    animation: boot 2s;
+}
+
+@keyframes boot{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.php{
+    width: 80%;
+    animation: php 2s;
+}
+
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.wordpress{
+    width: 70%;
+    animation: wordpress 2s;
+}
+
+@keyframes wordpress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+.pho{
+    width: 95%;
+    animation: pho 2s;
+}
+
+@keyframes pho{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.image_area {
+    width: 60%;
+    height: 600px;
+    overflow: hidden;
+    padding: 0px 0px 35px 40px;
+
+}
+.image_area .image{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background: url("images/skill_bg.png") no-repeat center;
+    background-size: 100% auto;
+
+}
+/* skill section css end */
+
+/* parallex_content css start */
+.section_parallex{
+    width: 100%;
+    background: url("images/parallex_bg2.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.curve_up{
+    background: url("images/cuvve_up.png") no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 250px;
+}
+.curve_down{
+    background: url("images/cuvve_doun.png") no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    background-position: bottom;
+    height: 250px;
+}
+.parallex_content{
+    background-color:rgba(21, 23, 62, .1);
+    text-align: center;
+}
+.parallex_content h2{
+    color: orange;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 50px 0px;
+    text-shadow: 3px 3px 8px black;
+
+}
+/* parallex_content css end */
+
+/* service_section css start */
+.service_section{
+    width: 100%;
+    background-color:rgba(21, 23, 62, 1);
+    overflow: hidden;    
+    text-align: center;
+}
+.service_section h2{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 45px;
+    font-weight: bold;
+    margin: 60px 0px;
+}
+
+.service_section .serivec{
+    padding: 2%;
+    width: 29.3333333%;
+    background-color: #fff;
+    float: left;
+    margin: 0px 2% 60px 2%;
+    border-radius: 13px;
+}
+.service_section img{
+    width: 60%;
+}
+.service_section h3{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.service_section p{
+    color: rgba(21, 23, 62, .7);
+    font-size: 16px;
+    text-align: justify;
+}
+.service_section .serivec:hover{
+    box-shadow: 0 0 15px orange;
+}
+
+/* service_section css end */
+
+/* project_section css start */
+.triang{
+    width: 0;
+	height: 0;
+	border-left: 19px solid transparent;
+	border-right: 19px solid transparent;
+	border-top: 19px solid orange;
+    margin: auto;
+}
+.project_section{
+    width: 100%;
+    overflow: hidden;
+}
+.project_section h2{
+    color: rgba(21, 23, 62, .7);
+    font-size: 45px;
+    font-weight: bold;
+    margin: 90px 0px 60px 0px;
+    text-align: center;
+
+}
+.project_section .product{
+    padding: .5%;
+    width: 29.3333333%;
+    background-color: rgb(20, 7, 7);
+    float: left;
+    margin: 0px 2% 60px 2%;
+    border-radius: 10px;
+}
+.project_section .product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.project_section .product:hover{
+    background-color: orange;
+    box-shadow: 0 0 15px black;
+    
+}
+
+/* connect with section_parallex */
+/* section_parallex_03 css start */
+.section_parallex_03{
+    background: url("images/parallex_bg3.jpg") no-repeat center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.section_parallex_03 .padding{
+    padding: 250px 0px;
+    text-align: center;
+    font-size: 60px;
+}
+.section_parallex_03 .curve_down_02{
+    background: url("images/curve.png") no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    background-position: bottom;
+    height: 300px;
+}
+
+
+
+/* contact form css start  */
+.contact-section h1{
+    color: rgba(21, 23, 62, .7);
+    font-size: 45px;
+    font-weight: bold;
+    margin: -100px 0px 80px 0px;
+    text-align: center;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+      font-size: 16px;
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    border: 0;
+    background: rgba(133, 133, 133, 0.3);
+    padding: 20px 40px;
+    color: rgba(21, 23, 62, 1);
+    transition: 0.7s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px .1px #3f4449; 
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    border: 0;
+    background:rgba(21, 23, 62, 1);
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.7s;   
+  }
+  .contact-form-btn:hover{
+    background: orange;
+    color: rgba(21, 23, 62, 1);
+  }
+  .contact-section .contact_left{
+      float: left;
+      width: 49%;
+      margin-right: 3%;
+  }
+
+
+  .contact-section .contact_right{
+      background: url("images/contact_bg.png") no-repeat center;
+      background-size: 90% auto;
+      height: 408px;
+      overflow: hidden;
+      width: 48%;
+  }
+/* contact from css end   */
+.footer_area{
+    background-color:rgba(21, 23, 62, 1);
+    color:white;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+    padding:110px 0px;
+}
+.socilmedia{
+    width:100%;
+}
+
+.s_menu{
+    width:100%;
+}
+.s_menu a{
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+.socilmedia a{
+    font-size: 20px;
+    margin: 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+.s_menu .animet:hover{
+    color: orange;
+}
+
+.socilmedia .animet:hover{
+    background: orange;
+}
+.s_menu .active{
+    color: orange;
+}
+
+
+
