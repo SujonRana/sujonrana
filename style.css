@@ -541,8 +541,9 @@
     font-size: 20px;
     margin: 20px;
     display: inline-block;
+    padding: 3px;
 }
-.socilmedia a{
+.footer_area .socilmedia a{
     font-size: 20px;
     margin: 20px;
     display: inline-block;
@@ -552,8 +553,8 @@
     color: orange;
 }
 
-.socilmedia .animet:hover{
-    background: orange;
+.footer_area .socilmedia a:hover{
+    text-shadow:0 0 13px orange;
 }
 .s_menu .active{
     color: orange;
