@@ -1,0 +1,112 @@
+@media(max-width:700px) {
+.menu_area ul li {
+        float: none;
+        display: block;
+        background-color: orange;
+        margin-left: 0px;
+        text-align: center;
+        padding: 4px 10px;
+        border-bottom: 1px solid black;
+        box-sizing: border-box;
+    }
+    .logo_area {
+        font-size: 35px;
+        width: 100%;
+        }
+
+
+        .menu_area {
+            width: 100%;
+            position: absolute;
+            top: 70px;
+            right: -100%;
+            transition: .5s;
+        }
+
+
+        #a:checked ~ .menu_area{
+            left: 0px;
+        }
+
+
+
+.menu_area ul li .active,
+.menu_area ul li a:hover {
+    border-bottom: 0px solid orange;
+}
+.menu_area ul li:hover {
+    background-color: chocolate;
+}
+
+.logo_area .fas{
+    margin-top: 12px;
+    float: right;
+    display: block;
+    font-size: 25px;
+    cursor:pointer;
+}
+.header_area{
+    background: rgba(21, 23, 62, .9);
+}
+.header_area {
+    text-align: center;
+}
+
+.about_content_left{
+    float: none;
+    width: 100%;
+    height: 600px;
+}
+.about_content_right{
+    float: none;
+    width: 100%;
+    padding-top: 0px;
+}
+.about_section{
+    overflow: hidden;
+    height: auto;
+}
+.curve_up {
+   
+    height: 147px;
+}
+.curve_down {   
+    height: 147px;
+}
+.service_section .serivec {
+    padding: 2%;
+    background-color: #fff;
+    margin: 0px 2% 60px 2%;
+    border-radius: 13px;
+    float: none;
+    width: 100%;
+}
+.section_parallex_03 .padding {
+    padding: 82px 0px;
+    font-size: 32px;
+}
+.section_parallex_03 .curve_down_02 {
+        height: 142px;
+}
+.contact-section h1 {
+    font-size: 31px;  
+    margin: -36px 0px 80px 0px;
+
+}
+.s_menu a {
+    font-size: 18px;
+    margin: 2px;
+    display: inline-block;
+    padding: 8px;
+}
+.footer_area {
+    height: 210px;
+    padding: 25px 0px;
+}
+
+
+
+
+
+
+}
